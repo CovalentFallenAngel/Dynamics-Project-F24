@@ -2,6 +2,7 @@
 \usepackage{graphicx} % Required for inserting images
 \usepackage{hyperref}
 \usepackage{caption}
+\usepackage{float}
 \usepackage{subcaption}
 
 \title{Robot Gripper}
@@ -45,8 +46,105 @@ in the industry in production lines, where routine tasks are to be performed con
 \newpage
 \section*{Design}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/Design.PNG}
+    \caption{Robot Gripper Design}
+\end{figure}
+\textbf{Member 1} $\rightarrow$ H = 0.02 m \qquad W = 0.5085 m
+\newline\newline
+\textbf{Member 17} $\rightarrow$ H = 0.02 m \qquad W = 0.7521 m
+\newline\newline
+\textbf{Member 2} $\rightarrow$ H = 0.65 m \qquad W = 0.02 m \qquad m = 1.3 kg
+\newline\newline
+\textbf{Member 3} $\rightarrow$ H = 0.19 m \qquad W = 0.03 m \qquad m = 0.57 kg
+\newline\newline
+\textbf{Member 4} $\rightarrow$ H = 0.02 m \qquad W = 0.63 m \qquad m = 1.26 kg
+\newline\newline
+\textbf{Member 5} $\rightarrow$ L = 0.08 m \qquad m = 0.64 kg
+\newline\newline
+\textbf{Member 6} $\rightarrow$ H = 0.25 m \qquad W = 0.016 m \qquad m = 0.4 kg
+\newline\newline
+\textbf{Member 7} $\rightarrow$ H = 0.05 m \qquad W = 0.47 m \qquad m = 2.35 kg
+\newline\newline
+\textbf{Member 8} $\rightarrow$ H = 0.14 m \qquad W = 0.03 m \qquad m = 0.42 kg
+\newline\newline
+\textbf{Member 9} $\rightarrow$ Actuator
+\newline\newline
+\textbf{Member 10, 11, 12}  $\rightarrow$ Pin joints
+\newline\newline
+\textbf{Member 13, 14, 15, 16}  $\rightarrow$ Connecting joints
+
+
+
 \newpage
 \section*{Results}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/ac tension.png}
+    \caption{Actuator tension}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/input power.png}
+    \caption{input power}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/ac velocity.png}
+    \caption{Actuator velocity}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/ac acc.png}
+    \caption{Actuator acceleration}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/ac length.png}
+    \caption{Actuator length}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/mem 10.png}
+    \caption{Member 10 force}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/mem 12.png}
+    \caption{Member 12 force}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/mem 11.png}
+    \caption{Member 11 force}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/mem 13.png}
+    \caption{Member 13 force}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/mem 15.png}
+    \caption{Member 15 force}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/mem 16.png}
+    \caption{Member 16 force}
+\end{figure}
 
 \newpage
 \section*{Conclusion}
